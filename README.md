@@ -18,3 +18,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 -   Infinity Scroll at Home and Search page (using Intersection Observer API)
 -   Mobile view
+-   Typescript
+-   Styled Components
+-   Forward Ref
