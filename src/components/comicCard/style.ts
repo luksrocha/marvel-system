@@ -13,11 +13,6 @@ export const ComicCardContainer = styled.div`
     display: flex;
     flex-direction: column;
     gap: 10px;
-
-    &:hover {
-        cursor: pointer;
-        transform: scale(1.05);
-    }
 `;
 
 export const ComicCardName = styled.span`

@@ -4,11 +4,13 @@ import { ComicCard } from '@/components/comicCard/ComicCard';
 import { HeroSection } from '../components/heroSection/HeroSection';
 import { useHeroData } from '../hooks/useHeroData';
 import {
+    HeroPageBackButtonContainer,
     HeroPageContainer,
     HeroPageLogoContainer,
     HeroPageLogoImage,
 } from './style';
 import { HeroCard } from '@/components';
+import BackButton from '@/components/backButton/BackButton';
 
 interface HeroProps {
     params: {
@@ -26,6 +28,9 @@ const HeroPage = ({ params }: HeroProps) => {
 
     return (
         <HeroPageContainer>
+            <HeroPageBackButtonContainer>
+                <BackButton />
+            </HeroPageBackButtonContainer>
             <h1>Hero {selectedHero?.name} </h1>
             {selectedHero?.description}
             <HeroSection title="Comics">

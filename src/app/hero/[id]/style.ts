@@ -23,3 +23,7 @@ export const HeroPageLogoImage = styled(Image)`
     width: 100%;
     flex: 1;
 `;
+
+export const HeroPageBackButtonContainer = styled.div`
+    width: 100%;
+`;
