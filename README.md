@@ -4,7 +4,7 @@ System using a Marvel API and Next 13
 
 ## Getting Started
 
-Create your own `.env` file using the `.env.example` and change the attributes.
+Create your own `.env` file using the `.env.example` and change the attributes. You can get your key accessing https://developer.marvel.com/
 
 Then, run the development server:
 
