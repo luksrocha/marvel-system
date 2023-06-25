@@ -16,6 +16,8 @@ npm install
 npm run dev
 ```
 
+use `npm run test` to run the tests
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## functionalities

@@ -21,6 +21,7 @@ const SearchBoxHeader = () => {
             <MagnifyingGlass size={24} color="#EC1D24" />
             <InputArea
                 onChange={(e) => handleSearchedHero(e.target.value)}
+                placeholder="Search for a hero"
                 value={termToSearch}
             />
             <SearchButton type="submit">Search</SearchButton>
